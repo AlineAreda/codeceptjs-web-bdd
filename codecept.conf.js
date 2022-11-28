@@ -30,10 +30,7 @@ exports.config = {
       deleteSuccessful: false,
       fullPageScreenshots: true,
       screenshotsForAllureReport: true
-    },
-    retryFailedStep: {
-      enabled: true
-    },
+    },   
      screenshotOnFail: {
       enabled: true
     },
