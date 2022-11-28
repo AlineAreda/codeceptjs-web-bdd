@@ -22,7 +22,19 @@ exports.config = {
     steps: ['./step_definitions/login_steps.js']
   },
   plugins: {
-    screenshotOnFail: {
+    allure: {
+      enabled: true
+    }, 
+    stepByStepReport: {
+      enabled: true,
+      deleteSuccessful: false,
+      fullPageScreenshots: true,
+      screenshotsForAllureReport: true
+    },
+    retryFailedStep: {
+      enabled: true
+    },
+     screenshotOnFail: {
       enabled: true
     },
     tryTo: {
