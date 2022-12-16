@@ -10,20 +10,6 @@
 
 
 ### 👨🏻‍💻 Como executar o projeto
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
-
-Iniciar um repositório local
-
-git init
-
-Clonar o projeto:
-
-git clone 
-
-
-Execute o comando abaixo:
-
-git remote add origin 
 
 
 Execute o comando abaixo para instalar das dependências do projeto:
